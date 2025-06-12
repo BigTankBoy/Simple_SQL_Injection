@@ -15,7 +15,7 @@
 
 ## 🚀 설치 및 실행
 
-1. 리포지토리 클론  
+1. repository clone
    ```bash
    git clone https://github.com/BigTankBoy/Simple_SQL_Injection.git
    cd Simple_SQL_Injection
