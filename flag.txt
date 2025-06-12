@@ -1,2 +1,1 @@
-#출력 대상
 GoPRO{Easy_SQL_injection!!}
