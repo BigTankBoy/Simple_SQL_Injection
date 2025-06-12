@@ -9,8 +9,7 @@
 
 - **언어/프레임워크**: Python + Flask  
 - **DB**: SQLite  
-- **취약점**: 쿼리 문자열 결합 (파라미터 바인딩 미사용) → SQL Injection 발생  
-- **목표**: SQL Injection 기법을 통해 `admin` 계정으로 로그인하고, 플래그(`flag.txt`)를 확인하세요.
+- **Clear**: SQL Injection 기법을 통해 `admin` 계정으로 로그인하고, 플래그(`flag.txt`)를 확인하세요.
 
 ---
 
