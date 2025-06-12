@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <h2>환영합니다, {{ user }}님!</h2>
+  {% if flag %}
+  <p>FLAG: {{ flag }}</p>
+  {% else %}
+  <p>당신이 찾는 FLAG는 어딨을까요?</p>
+  {% endif %}
+  <a href="/logout" class="logout">로그아웃</a>
+</div>
+{% endblock %}

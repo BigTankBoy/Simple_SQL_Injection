@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>GoPro Judgement</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <div class="header">
+    <img src="{{ url_for('static', filename='images/goprocat.png') }}" alt="GoPro Cat">
+  </div>
+
+  {% block content %}{% endblock %}
+
+</body>
+</html>
